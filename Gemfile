@@ -38,7 +38,7 @@ gem 'bootstrap-sass'
 gem 'rb-fsevent','0.9.8'
 gem 'simple_form'
 gem 'devise'
-
+gem 'will_paginate'
 
 
 group :development, :test do
