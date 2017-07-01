@@ -34,7 +34,7 @@ class PostsController < ApplicationController
     @group = Group.find(params[:group_id])
     @post = Post.find(params[:id])
   if
-     @post = Post.update(post_params)
+     @post.update(post_params)
     redirect_to group_path(@group),notice: "Update Success"
   else
     render :edit
